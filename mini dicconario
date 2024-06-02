@@ -1,0 +1,15 @@
+meme_dict = {
+            "CRINGE": "Algo excepcionalmente raro o embarazoso",
+            "LOL": "Una respuesta común a algo gracioso",
+            "ROFL": "una respuesta a una broma",
+            'SHEESH" : "ligera desaprobación",
+            "CREEPY" : "aterrador, siniestro",
+            'AGGRO' : 'ponerse agresivo/enojado'
+
+            } #aca se encuentran las palabras para el diccionario
+word = input("Escribe una palabra que no entiendas (¡con mayúsculas!): ") #esto va a prenguntar ingresar alguna de las 3 palabras
+
+if word in meme_dict.keys():
+    print(meme_dict[word])#el codigo buscara la palabra que as escrito
+else:
+    print('no se encontro la base de datos') #cuando el programa no le escribiste bien las palabras o no colocaste la pa
