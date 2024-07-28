@@ -1,0 +1,45 @@
+        body {
+            background-color: #ff00ff; /* Fondo rosa fosforescente */
+            color: #00ff00; /* Texto verde neón */
+            font-family: 'Comic Sans MS', cursive, sans-serif; /* Fuente cómica */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            color: #D6FF6B; /* Color de la cabecera */
+            font-size: 48px; /* Tamaño grande de la fuente de la cabecera */
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, serif; /* Familia tipográfica */
+            animation: color-change 3s infinite; /* Animación de cambio de color */
+        }
+        @keyframes color-change {
+            0% {
+                color: blue;
+            }
+            50% {
+                color: red;
+            }
+            100% {
+                color: blue;
+            }
+        }
+        p {
+            font-size: 24px; /* Tamaño grande del texto del párrafo */
+            background-color: #ffff00; /* Fondo amarillo neón para los párrafos */
+            padding: 10px; /* Espacio dentro del párrafo */
+            border: 2px solid #ff0000; /* Borde rojo para los párrafos */
+        }
+        .container {
+            border: 5px dotted #0000ff; /* Borde punteado azul */
+            margin: 20px;
+            padding: 20px;
+        }
+        footer {
+            background-color: #00ffff; /* Fondo cian para el pie de página */
+            color: #ff00ff; /* Texto rosa fosforescente */
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+  
